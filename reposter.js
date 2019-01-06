@@ -6,7 +6,7 @@ const fs = require("fs");
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
-client.login("<SECRET_BOT_TOKEN>").catch(console.error);
+client.login("NTMxMjY1OTgxNTY2MTU2ODEz.DxLb-A.Kykntt1ZUjOzQ8e-PI2SZQA0BsE").catch(console.error);
 
 client.on("ready", function() {
 	client.user.setActivity(client.guilds.size + " server" + (client.guilds.size === 1 ? "" : "s"), { type: "WATCHING" }).catch(console.error);
